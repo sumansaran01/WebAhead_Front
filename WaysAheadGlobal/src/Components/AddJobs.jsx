@@ -48,7 +48,7 @@ const AddJobs = () => {
         setError('');
     
         try {
-            const response = await fetch('http://localhost:3000/api/job/jobs', {
+            const response = await fetch('https://ways-ahead-global-backend-suman-saran.vercel.app//api/job/jobs', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json", 
